@@ -16,7 +16,7 @@ echo "
 
 # Ask the user for the Minecraft server script URL
 read -p "Please enter the URL of the Minecraft server script (press Enter to use the default URL): " server_url
-server_url=${server_url:-"https://piston-data.mojang.com/v1/objects/5b868151bd02b41319f54c8d4061b8cae84e665c/server.jar"}
+server_url=${server_url:-"https://piston-data.mojang.com/v1/objects/15c777e2cfe0556eef19aab534b186c0c6f277e1/server.jar"}
 
 # Download the Minecraft server script
 wget -O server.jar $server_url
